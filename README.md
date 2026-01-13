@@ -2,7 +2,7 @@
 ### Transforming Biochemistry into Predictive Data Analytics
 
 ![ProtStable-Analytics](output/header.png)
-*Figure 1: Predictive Accuracy, Thermodynamic Distribution, and Feature Importance of the ML Model.*
+
 
 ---
 
@@ -20,7 +20,7 @@ By extracting real-world data from the UniProt API and engineering physics-based
 * **Analytics:** Pandas, NumPy, Scikit-Learn
 * **Visualization:** Matplotlib, Seaborn, Tableau
 ![Tableau Dashboard](output/Tableau.png)
-
+*Figure 1: Predictive Accuracy, Thermodynamic Distribution, and Feature Importance of the ML Model.*
 
 ---
 
