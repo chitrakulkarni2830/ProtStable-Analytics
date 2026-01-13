@@ -1,7 +1,7 @@
 # 🧬 Protein Stability Predictor: ML-Driven Mutation Analysis
 ### Transforming Biochemistry into Predictive Data Analytics
 
-![ProtStable-Analytics](assets/header.png)
+![Biochemical Analysis Results](assets/header.png)
 *Figure 1: Predictive Accuracy, Thermodynamic Distribution, and Feature Importance of the ML Model.*
 
 ---
