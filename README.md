@@ -19,6 +19,8 @@ By extracting real-world data from the UniProt API and engineering physics-based
 * **Database:** SQLite (Relational data management)
 * **Analytics:** Pandas, NumPy, Scikit-Learn
 * **Visualization:** Matplotlib, Seaborn, Tableau
+![Tableau Dashboard](output/Tableau.png)
+
 
 ---
 
@@ -42,6 +44,15 @@ Simulated point mutations across the protein sequence, generating a dataset that
 Implemented a **Random Forest Regressor** to handle the non-linear nature of biological data. 
 * **Train-Test Split:** 80/20
 * **Evaluation Metrics:** $R^2$ Score and RMSE (Root Mean Squared Error).
+
+---
+## 📈 Key Analytical Insights
+Using the **Tableau Dashboard**, four critical analytical views were generated:
+
+1. **Mutational Heatmap:** Visualizes the "Stability Matrix," identifying that substitutions to Helix-breakers (Proline) or large aromatic residues in core positions are primary destabilizers.
+2. **Feature Importance:** Confirmed **Hydrophobicity** as the #1 predictor of stability, aligning with the "Hydrophobic Collapse" theory of protein folding.
+3. **Hotspot Profile:** A sequence-level analysis identifying specific residues (structural 'pillars') that are thermodynamically intolerant to variation.
+4. **Model Reliability:** A Parity Plot showing high correlation between target and predicted values, validating the Random Forest approach.
 
 ---
 
